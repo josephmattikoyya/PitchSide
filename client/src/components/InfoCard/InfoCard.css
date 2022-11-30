@@ -1,0 +1,38 @@
+.infoHead>div>img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.InfoCard {
+    display: flex;
+    flex-direction: column;
+    grid-template: 0.75rem;
+    background-color: var(--green);
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--black);
+    width: 90%;
+}
+
+.infoHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoHead>div:hover {
+    cursor: pointer;
+}
+
+.logout-button {
+    background-color: var(--grey);
+    color: var(--green);
+    width: 7rem;
+    height: 2rem;
+    margin-top: 6rem;
+    align-self: flex-end;
+}
+
+.logout-button:hover {
+    color: var(--black);
+}

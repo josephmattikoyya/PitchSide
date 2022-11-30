@@ -1,0 +1,24 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navIcons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navIcons>img {
+    filter: invert(100%) sepia(17%) saturate(1464%) hue-rotate(350deg) brightness(105%) contrast(102%);
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.r-button {
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+
+}
